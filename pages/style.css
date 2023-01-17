@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.new-content {
+  background: hsl(240, 100%, 5%);
+}
+.read-more {
+  letter-spacing: 3px;
+  color: white;
+  background-color: hsl(5, 85%, 63%);
+  transition: all 0.5s ease;
+}
+.title-new {
+ color: hsl(35, 77%, 62%);
+}
+.read-more:hover {
+  background-color: black;
+  color: #fff;
+}
+.navbar-nav li a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.title-banner {
+  cursor: pointer;
+}
+.title-banner:hover {
+  color: hsl(35, 77%, 62%);
+}
+.content-text {
+    cursor: pointer;
+}
+.content-text h6:hover {
+  color: hsl(5, 85%, 63%);
+}
+.banner-mobile {
+  display: none;
+}
+.navbar-nav li {
+  margin-left: 25px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .banner-dekstop {
+    display: none;
+  }
+  .banner-mobile {
+    display: inherit;
+  }
+  .navbar-nav li {
+    margin-left: 0;
+  }
+  .navbar-nav li a {
+    text-align: center;
+  }
+}
